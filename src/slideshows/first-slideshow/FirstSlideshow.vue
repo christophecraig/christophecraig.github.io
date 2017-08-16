@@ -18,6 +18,7 @@
 </template>
 
 <script>
+// import titles from 'title'
 import eagle from 'eagle.js'
 export default {
   mixins: [eagle.slideshow],
