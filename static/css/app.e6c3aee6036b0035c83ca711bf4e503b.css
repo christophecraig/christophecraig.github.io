@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);@import url(https://fonts.googleapis.com/css?family=Rubik);
 body {
   width: 100%;
   margin: 0 0;
@@ -90,20 +90,32 @@ a[data-v-21c9f519] {
 }
 
 #MyFirstSlideshow .eg-slideshow {
-  font-family: 'Raleway';
+  font-family: 'Rubik';
 }
 #MyFirstSlideshow .eg-slideshow .eg-slide .eg-slide-content {
     width: 25em;
     max-width: 80%;
     margin: 0 auto;
 }
-#MyFirstSlideshow .eg-slideshow .eg-slide .eg-slide-content h1 {
-      font-size: 1.5em;
+#MyFirstSlideshow .eg-slideshow .eg-slide .eg-slide-content .main-title {
+      position: absolute;
+      width: 70%;
+      margin: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+#MyFirstSlideshow .eg-slideshow .eg-slide .eg-slide-content svg {
+      margin-left: 10px;
 }
 #MyFirstSlideshow .eg-slide-content {
   width: 25em;
   max-width: 80%;
   margin: 0 auto;
+}
+#MyFirstSlideshow .fadeOut {
+  position: absolute;
+  top: 0;
 }
 
 .eg-modal {
